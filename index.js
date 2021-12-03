@@ -1,7 +1,6 @@
-import { Conta } from "./Conta.js";
-import { Cliente } from "./Cliente.js";
-import { ContaCorrente } from "./ContaCorrente.js";
-import { ContaPoupanca } from "./Contas/ContaPoupanca.js";
+import { Cliente } from "../Bytebank/Contas/Cliente.js";
+import { ContaCorrente } from "../Bytebank/Contas/ContaCorrente.js";
+import { ContaPoupanca } from "../Bytebank/Contas/ContaPoupanca.js";
 
 const cliente1 = new Cliente("Bea", 11122233309);
 const cliente2 = new Cliente("Alice", 88822233309);

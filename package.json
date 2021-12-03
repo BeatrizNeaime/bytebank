@@ -1,12 +1,20 @@
 {
   "name": "bytebank",
   "version": "1.0.0",
-  "description": "aulas de POO em JS",
+  "description": "O Bytebank foi criado com base nas aulas da Alura sobre orientação a objetos com JavaScript. Seguindo os ensinamentos das aulas e com o intuito de testar  o que aprendi, adicionei algumas funcionalidades que não são feitas em aula.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bea",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatrizNeaime/bytebank.git"
+  },
+  "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/BeatrizNeaime/bytebank/issues"
+  },
+  "homepage": "https://github.com/BeatrizNeaime/bytebank#readme"
 }
