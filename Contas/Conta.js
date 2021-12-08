@@ -9,7 +9,7 @@ export class Conta{
         this._agencia = ag;
         this._tipoConta = tipoConta;
         if(this.constructor == Conta){
-            throw new Error(`Não é possível criar uma conta tipo Conta`);
+            throw new Error(`Não é possível criar uma conta do tipo Conta`);
         }
     }
 

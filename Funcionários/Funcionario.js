@@ -7,8 +7,10 @@ export class Funcionario{
         this._senha;
     }
 
-    get senha(){
-        return this._senha;
+    autenticar(senha){
+        if(this._senha == senha){
+            console.log(`${this.nome} logado com sucesso!`);
+        }
     }
 
     cadastrarSenha(novaSenha){

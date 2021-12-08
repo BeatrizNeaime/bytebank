@@ -5,17 +5,17 @@ import { Diretor } from "./Funcionários/Diretor.js";
 import { SistemaAutenticacao } from "./SistemaAutenticacao.js";
 /*--------- fim import ----------*/
 
+
 /*--------- início variáveis ----------*/
 const diretor = new Diretor("Bia", 11122233, 1000);
 const gerente = new Gerente("Pipe", 66655544499, 990);
+const cliente = new Cliente("Ale", 55544488822, "chucrute");
 /*--------- fim variáveis ----------*/
 
+diretor.cadastrarSenha("senha1");
+gerente.cadastrarSenha("senha2");
 
-diretor.cadastrarSenha("uaudnfhasiasi");
-
-const logado = SistemaAutenticacao.login(diretor, "uaudnfhasiasi");
-
-console.log(logado);
+SistemaAutenticacao.login(diretor, "senha1");
 
 
 

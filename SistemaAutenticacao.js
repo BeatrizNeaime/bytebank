@@ -1,5 +1,13 @@
 export class SistemaAutenticacao{
-    static login(funcionario, senha){
-        return funcionario._senha == senha;
+    static login(logando, senha){
+        if(SistemaAutenticacao.ehAutenticavel(logando)){
+            return logando.autenticar(senha);
+        }
+        return false;
     }
+
+    ehAutenticavel(logando){
+        return "autenticar" in logando && logando.autenticar instanceof Function;
+    }
+
 }
